@@ -38,7 +38,7 @@ public class MedianFinder {
     }
     
     public double findMedian() {
-    	// If even, add both elements and dvide
+    	// If even, add both elements and divide
         if(even){
             return (smallWithMax.peek() + largeWithMin.peek()) / 2.0; 
         } else {
